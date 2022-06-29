@@ -1,0 +1,60 @@
+.unordered-list-of-employment-type,
+.unordered-list-of-salary-range {
+  list-style-type: none;
+  padding: 0px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.employment-type-item,
+.salary-range-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+.checkbox-label,
+.radio-label {
+  cursor: pointer;
+}
+.type-of-employment-heading,
+.salary-range-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 24px;
+}
+.search-input-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #f1f5f9;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+.search-bar {
+  border: none;
+  outline: none;
+  width: 90%;
+  color: #f8fafc;
+  font-size: 16px;
+  padding: 8px 20px 8px 20px;
+  background-color: transparent;
+}
+.search-icon-button {
+  background-color: #272727;
+  width: 10%;
+  height: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+}
+.search-icon {
+  cursor: pointer;
+}

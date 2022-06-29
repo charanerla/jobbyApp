@@ -1,0 +1,59 @@
+.similar-job-item {
+  width: 100%;
+  padding: 20px;
+  background-color: #272727;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+@media all and (min-width: 768px) {
+  .similar-job-item {
+    width: 30vw;
+    margin-right: 20px;
+  }
+}
+.similar-job-item-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.star-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.job-title {
+  color: #f8fafc;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+}
+.rating {
+  font-size: 17px;
+  margin: 0px 0px 0px 4px;
+  color: #ffffff;
+}
+.location-job-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.location-text,
+.job-type {
+  margin: 0px 20px 0px 6px;
+  color: #f1f5f9;
+  font-weight: 400;
+  font-size: 13px;
+}
+.description-title {
+  font-size: 16px;
+  color: #f8fafc;
+  font-weight: 400;
+}
+.job-description {
+  color: #cbd5e1;
+  font-size: 14px;
+}
